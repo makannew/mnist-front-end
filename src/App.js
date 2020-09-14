@@ -9,7 +9,7 @@ import * as tf from "@tensorflow/tfjs";
 
 // const modelURL = "http://localhost:8080/model.json"
 const modelURL =
-  "https://github.com/makannew/mnist-front-end/src/assets/model.json";
+  "https://github.com/makannew/mnist-front-end/tree/master/public/model.json";
 
 function App() {
   const pixelsGateway = useStateGateway(null);
