@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Canvas from "./components/canvas/canvas";
 import Links from "./components/links/links";
 import Result from "./components/result/result";
 import { useStateGateway } from "use-linked-state";
 import Detect from "./components/detect/detect";
+import * as tf from "@tensorflow/tfjs";
+
+// const modelURL = "http://localhost:8080/model.json"
+const modelURL =
+  "https://github.com/makannew/mnist-front-end/src/assets/model.json";
 
 function App() {
   const pixelsGateway = useStateGateway(null);
-
+  let model;
+  const loadModel = async () => {
+    model = await tf.loadLayersModel(modelURL);
+  };
+  useEffect(() => {
+    loadModel();
+  }, []);
   return (
     <div className="App">
       <Canvas
