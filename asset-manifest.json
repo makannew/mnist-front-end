@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mnist-front-end/static/css/main.e550beb0.chunk.css",
-    "main.js": "/mnist-front-end/static/js/main.0e8dc9af.chunk.js",
-    "main.js.map": "/mnist-front-end/static/js/main.0e8dc9af.chunk.js.map",
+    "main.js": "/mnist-front-end/static/js/main.f0250d05.chunk.js",
+    "main.js.map": "/mnist-front-end/static/js/main.f0250d05.chunk.js.map",
     "runtime-main.js": "/mnist-front-end/static/js/runtime-main.0a58e092.js",
     "runtime-main.js.map": "/mnist-front-end/static/js/runtime-main.0a58e092.js.map",
     "static/js/2.f88bdf33.chunk.js": "/mnist-front-end/static/js/2.f88bdf33.chunk.js",
     "static/js/2.f88bdf33.chunk.js.map": "/mnist-front-end/static/js/2.f88bdf33.chunk.js.map",
     "index.html": "/mnist-front-end/index.html",
-    "precache-manifest.cfe38eb25c185a89b4ac76cc29f2cc5e.js": "/mnist-front-end/precache-manifest.cfe38eb25c185a89b4ac76cc29f2cc5e.js",
+    "precache-manifest.e329071bcbc82a0b7e87d58033383069.js": "/mnist-front-end/precache-manifest.e329071bcbc82a0b7e87d58033383069.js",
     "service-worker.js": "/mnist-front-end/service-worker.js",
     "static/css/main.e550beb0.chunk.css.map": "/mnist-front-end/static/css/main.e550beb0.chunk.css.map",
     "static/js/2.f88bdf33.chunk.js.LICENSE.txt": "/mnist-front-end/static/js/2.f88bdf33.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0a58e092.js",
     "static/js/2.f88bdf33.chunk.js",
     "static/css/main.e550beb0.chunk.css",
-    "static/js/main.0e8dc9af.chunk.js"
+    "static/js/main.f0250d05.chunk.js"
   ]
 }

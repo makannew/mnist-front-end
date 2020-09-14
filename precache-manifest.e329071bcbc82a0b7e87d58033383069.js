@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "236e8d4c6b706c7b81ec9ae15fdd76db",
+    "revision": "5a9872ee72293f392f737c4ec51c79a0",
     "url": "/mnist-front-end/index.html"
   },
   {
-    "revision": "8e8b7dc978d02a43abbe",
+    "revision": "21a961fb5e0a330b8661",
     "url": "/mnist-front-end/static/css/main.e550beb0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mnist-front-end/static/js/2.f88bdf33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e8b7dc978d02a43abbe",
-    "url": "/mnist-front-end/static/js/main.0e8dc9af.chunk.js"
+    "revision": "21a961fb5e0a330b8661",
+    "url": "/mnist-front-end/static/js/main.f0250d05.chunk.js"
   },
   {
     "revision": "fc1330c380fe4219e8d8",
