@@ -7,19 +7,9 @@ import { useStateGateway } from "use-linked-state";
 import Detect from "./components/detect/detect";
 import * as tf from "@tensorflow/tfjs";
 
-// const modelURL = "http://localhost:8080/model.json"
-const modelURL =
-  "https://github.com/makannew/mnist-front-end/blob/master/public/model.json";
-
 function App() {
   const pixelsGateway = useStateGateway(null);
-  let model;
-  const loadModel = async () => {
-    model = await tf.loadLayersModel(modelURL);
-  };
-  useEffect(() => {
-    loadModel();
-  }, []);
+
   return (
     <div className="App">
       <Canvas
